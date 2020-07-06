@@ -1,0 +1,34 @@
+{
+  "name": "twitch_alica_bot",
+  "version": "1.0.0",
+  "description": "The twitch bot for chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaliLinuxF/Alica-Twitch-BOT.git"
+  },
+  "keywords": [
+    "twitch",
+    "bot"
+  ],
+  "author": "vk.com/roflonton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaliLinuxF/Alica-Twitch-BOT/issues"
+  },
+  "homepage": "https://github.com/KaliLinuxF/Alica-Twitch-BOT#readme",
+  "dependencies": {
+    "easy-twitch-bot": "^4.1.2",
+    "express": "^4.17.1",
+    "twitch": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  }
+}
